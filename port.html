@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport"
+                    content="width=device-width, initial-scale=1.0">
+                <title>Personal Card</title>
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+                    rel="stylesheet">
+                <style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #000000;
+}
+
+.buttoe {
+            text-align: center;
+            margin-right: 20px;
+            margin-bottom: 260px;
+            height: 40px;
+            width: 160px;
+            background-color: white;
+            color: rgb(0, 0, 0);
+            border: none;
+            outline: none;
+            cursor: pointer;
+            position: relative;
+            border: 1px solid white;
+            overflow: hidden;
+        }
+
+        .buttoe::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            transition: left 0.5s ease;
+            color: white;
+            z-index: 0;
+        }
+
+        .buttoe:hover::before {
+            left: 0;
+        }
+
+        .buttoe.buttoe:hoverafter {
+            color: white;
+            background-color: #000000;
+        }
+
+        .buttoe span {
+            position: relative;
+            z-index: 2;
+        }
+
+.card {
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    margin-right: 20px;
+    width: 100%;
+    height: 400px;
+    background-color: transparent;
+    animation: glow 6s infinite;
+}
+
+@keyframes glow {
+   
+    
+    50% {
+        box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.5),
+                    0px 0px 0px 9px rgba(255, 255, 255, 0.5),
+                    0px 0px 0px 15px rgba(255, 255, 255, 0.5);
+    }
+    75% {
+        box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.25),
+                    0px 0px 0px 9px rgba(255, 255, 255, 0.25),
+                    0px 0px 0px 15px rgba(255, 255, 255, 0.25),
+    }
+    100% {
+        box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.25),
+                    0px 0px 0px 9px rgba(255, 255, 255, 0.25),
+                    0px 0px 0px 15px rgba(255, 255, 255, 0.25),
+    }
+
+}
+
+.card img {
+    border-radius: 50%;
+    width: 150px;
+    border: 2px solid white;
+    box-shadow: rgba(255, 255, 255, 0.56) 0px 2px 10px 1px;
+    height: 150px;
+    opacity: 0;
+    animation: fadeIn 1s forwards 3s; /* fade in after 3s */
+}
+
+h1.ASS {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 20px 0 10px;
+    opacity: 0;
+    animation: fadeIn 1s forwards 3.2s; /* fade in after 3.2s */
+}
+
+
+.title {
+    font-size: 22px;
+    margin-top: 40px;
+    color: #ffffff;
+    opacity: 0;
+    animation: fadeIn 1s forwards 3.4s; /* fade in after 3.4s */
+}
+
+.description {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: fadeIn 1s forwards 3.6s; /* fade in after 3.6s */
+}
+
+.contact-info {
+    margin-bottom: 17px;
+    opacity: 0;
+    animation: fadeIn 1s forwards 3.8s; /* fade in after 3.8s */
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    opacity: 0;
+    animation: fadeIn 1s forwards 4s; /* fade in after 4s */
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.mail {
+    margin-top: 20px;
+    font-size: 20px;
+    opacity: 0;
+    animation: fadeIn 1s forwards 4.2s
+}
+
+
+       </style>
+            </head>
+                <body class="glitch-bg">
+                <button type="button" class="buttoe">Light</button>
+
+                <div class="card">
+                
+                 <img src="wewe.jpg" alt="John Rex">
+                 <h1 class="ASS">HI , I AM SANTHOSH</h1>
+                 <p class="title">Web Designer & Developer</p>
+                 <p class="description">Professional UI/UX designer and web
+                     developer .Sometimes works as a freelancer.</p>
+                 <div class="contact-info">
+                     <a href="mailto:san0thosh08gmail">san0thosh08gmail</a>
+                     <a href="tel:+123456789111" class="mail">+123 456 789
+                         111</a>
+                 </div>
+                 <div class="social-icons">
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-facebook"></i></a>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="#"><i class="fab fa-linkedin"></i></a>
+                 </div>
+                </div>
+
+            </body>
+        </html>
+    </body>
+</html>
