@@ -12,6 +12,7 @@ I specialize in both front-end and back-end development, creating seamless and e
 
 ## **Innovative Portfolio Page**
 
+
 Discover the unique sections of my portfolio, each designed to highlight different aspects of my work and skills. Click on each section to explore further!
 
 - **Skills**: 📚 Detailed overview of my technical proficiencies and tools.
@@ -31,6 +32,7 @@ This portfolio is designed with a focus on usability and aesthetics, enhanced wi
 Feel free to navigate through the different sections to learn more about my work. Let's connect and create something amazing together!
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 📧 **Contact Information**
